@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="watchContainer">
+        <div class="heading">
+            <h1>Stop Watch</h1>
+        </div>
+        <div class="clock">
+            <h1 id="hours">0</h1> <span class="watchDivider">:</span>
+            <h1 id="mins">0</h1> <span class="watchDivider">:</span>
+            <h1 id="secs">0 </h1>.
+            <h6 id="milSecs">0 </h6>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <button type="button" class="btn btn-secondary" id="startBtn" onclick="startCounter()">Start</button>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <button type="button" class="btn btn-danger" id="stopBtn" onclick="stopCounter()">Stop</button>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <button type="button" class="btn btn-info" id="resetBtn" onclick="resetCounter()">Reset</button>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <button type="button" class="btn btn-secondary" id="resumeBtn" onclick="resumeCounter()">Resume</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

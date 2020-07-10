@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+}
+
+.watchContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.clock>h1 {
+    display: inline-block;
+}
+
+h6 {
+    display: inline-block;
+}
+
+.watchDivider {
+    font-size: 250%;
+    font-weight: 600;
+}
+
+#startBtn {
+    display: inline-block;
+    width: 50%;
+}
+
+#stopBtn {
+    display: none;
+    width: 100%;
+}
+
+#resetBtn {
+    display: none;
+    width: 100%;
+}
+
+#resumeBtn {
+    display: none;
+    margin-top: -70%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1198px) {
+    #resumeBtn {
+        margin-top: -70%;
+    }
+}
