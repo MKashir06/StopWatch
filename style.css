@@ -8,6 +8,13 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    border: 2px solid brown;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10%;
+    background-color: khaki;
+    padding-bottom: 20px;
+    margin-top: 10%;
 }
 
 .clock>h1 {
